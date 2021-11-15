@@ -13,12 +13,12 @@ local utility = {}
 
 -- themes
 local objects = {}
-	local themes = {
-	Background = Color3.fromRGB(0, 0, 0),
-	Glow = Color3.fromRGB(255, 0, 0),
-	Accent = Color3.fromRGB(255, 0, 0),
-	LightContrast = Color3.fromRGB(44, 13, 19),
-	DarkContrast = Color3.fromRGB(23, 0, 1),  
+local themes = {
+	Background = Color3.fromRGB(24, 24, 24), 
+	Glow = Color3.fromRGB(218, 40, 24), 
+	Accent = Color3.fromRGB(218, 40, 24), 
+	LightContrast = Color3.fromRGB(20, 20, 20), 
+	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
 
@@ -2167,4 +2167,6 @@ do
 		end
 	end
 end
+
+print("dino was here :\)")
 return library
